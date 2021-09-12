@@ -14,8 +14,7 @@ class Reservation extends Component {
       campers: 1,
       hikeIn: false,
       date: new Date(),
-      showCalendar: false,
-      showModal: false
+      showCalendar: false
     };
   }
 
@@ -40,7 +39,6 @@ class Reservation extends Component {
         {
           text: 'OK',
           onPress: () => {
-            (this.state.date.toLocaleDateString('en-US'));
             this.resetForm()
           }
         }
@@ -54,8 +52,7 @@ class Reservation extends Component {
       campers: 1,
       hikeIn: false,
       date: new Date(),
-      showCalendar: false,
-      showModal: false
+      showCalendar: false
     });
   }
 
